@@ -10,7 +10,15 @@ html {
 bodybody{
   font-family: 'Montserrat', serif;
 }
-
+.subtitulo {
+    font-size: 16px;          /* más pequeño que el título */
+    font-weight: 300;         /* bien delgado */
+    color: #333;              /* gris oscuro en vez de negro puro */
+    text-align: center;
+    margin-top: 6px;
+    letter-spacing: 0.5px;    /* apenas un poco de aire */
+    font-family: "Cormorant Garamond", serif;
+}
 .contenedor{
     padding: 60px 0;
     width: 90%;
