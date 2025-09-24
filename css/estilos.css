@@ -37,6 +37,15 @@ bodybody{
 }
 
 /* Header */
+.bio-text p {
+    line-height: 1.8; /* más separación entre líneas */
+    margin-bottom: 12px; /* espacio entre párrafos */
+    font-family: 'Cormorant Garamond', serif; /* mismo estilo elegante que la intro */
+    font-size: 16px; /* ajusta según prefieras */
+}
+.bio-text strong {
+    font-weight: 700; /* resalta los encabezados tipo CV */
+}
 .bio {
   max-width: 800px;
   margin: 0 auto;
