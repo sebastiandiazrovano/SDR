@@ -1,6 +1,75 @@
 html {
   scroll-behavior: smooth;
 }
+/* Fuente global */
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 0.5em;
+}
+
+/* Párrafos */
+p {
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 1em;
+}
+
+/* Links */
+a {
+    font-family: 'Cormorant Garamond', serif;
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* Cabecera */
+header .textos-header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Secciones */
+section {
+    padding: 60px 20px;
+}
+
+/* Galerías */
+.galeria-paintings .imagen-port,
+.galeria-instalation .imagen-port,
+.galeria-object .imagen-port {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Subtítulos tipo CV en Bio */
+.bio-text {
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.9;
+}
+
+.bio-text p {
+    margin-bottom: 12px;
+}
+
+.bio-text strong {
+    font-weight: 700;
+}
 *{
     margin:0;
     padding: 0;
