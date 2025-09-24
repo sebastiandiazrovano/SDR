@@ -108,7 +108,7 @@ bodybody{
 /* Header */
 .bio-text p {
     line-height: 1.8; /* más separación entre líneas */
-    margin-bottom: 12px; /* espacio entre párrafos */
+    margin-bottom: 8px; /* espacio entre párrafos */
     font-family: 'Cormorant Garamond', serif; /* mismo estilo elegante que la intro */
     font-size: 16px; /* ajusta según prefieras */
 }
