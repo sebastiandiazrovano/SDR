@@ -11,12 +11,14 @@ bodybody{
   font-family: 'Montserrat', serif;
 }
 .subtitulo {
-    font-size: 16px;          /* más pequeño que el título */
-    font-weight: 300;         /* bien delgado */
-    color: #333;              /* gris oscuro en vez de negro puro */
-    text-align: center;
-    margin-top: 6px;
-    letter-spacing: 0.5px;    /* apenas un poco de aire */
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    max-width: 1000px;   /* igual al ancho máximo de .contenedor */
+    margin: 10px auto 0; /* centrado y con espacio superior */
+    line-height: 1.6;    /* separación agradable entre líneas */
+    text-align: left;    /* queda más minimalista alineado a la izquierda */
+    padding: 0 20px;     /* un poco de aire a los lados en pantallas pequeñas */
     font-family: "Cormorant Garamond", serif;
 }
 .contenedor{
