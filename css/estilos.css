@@ -163,10 +163,21 @@ footer {
 /* ===========================
    Ajustes galería Video
    =========================== */
-.video iframe {
+.video-port {
+  position: relative;
+  padding-bottom: 56.25%; /* relación 16:9 */
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.video-port iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 1246px;
-  height: auto;
+  height: 100%;
+  border: 0;
 }
 
 /* ===========================
