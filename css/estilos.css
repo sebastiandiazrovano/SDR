@@ -19,6 +19,14 @@ body {
   background-color: #fff;
    letter-spacing: 1px; 
 }
+.epigrafe {
+    display: block;        /* fuerza a que esté en su propia línea */
+    text-align: right;     /* alinea a la derecha */
+    font-style: italic;    /* pone la cita en cursiva */
+    margin-bottom: 10px;   /* espacio entre la cita y el párrafo */
+    font-size: 0.95em;     /* opcional: tamaño un poco menor que el texto */
+    color: #555;           /* opcional: color más suave */
+}
 .autor-cita {
     display: block;
     text-align: right;
