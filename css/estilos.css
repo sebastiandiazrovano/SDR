@@ -23,7 +23,7 @@ body {
     display: block;        /* fuerza a que esté en su propia línea */
     text-align: right;     /* alinea a la derecha */
     font-style: italic;    /* pone la cita en cursiva */
-    margin-bottom: 18px;   /* espacio entre la cita y el párrafo */
+    margin-bottom: 25px;   /* espacio entre la cita y el párrafo */
     font-size: 0.95em;     /* opcional: tamaño un poco menor que el texto */
     color: #555;           /* opcional: color más suave */
 }
@@ -89,7 +89,7 @@ header .textos-header {
 
 header .textos-header h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 header .textos-header p {
