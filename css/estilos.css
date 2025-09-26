@@ -289,3 +289,10 @@ footer {
   opacity: 1;
   transform: scale(1.1);   /* efecto suave al pasar el mouse */
 }
+/* Espacio superior al hacer clic en el menú */
+section[id], 
+h2[id], 
+h3[id] {
+  scroll-margin-top: 80px; /* ajusta según la altura de tu menú */
+}
+
