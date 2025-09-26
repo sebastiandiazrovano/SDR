@@ -73,10 +73,15 @@ a {
   padding: 60px 0;
   overflow: hidden;
 }
-
+#paintings {
+    padding-top: 30px;  /* reduce la distancia arriba */
+}
 /* ===========================
    Header
    =========================== */
+header .textos-header {
+    padding-bottom: 20px; /* reduce el espacio bajo la introducción */
+}
 header .textos-header {
   text-align: center;
   padding: 30px 20px 15px 20px; /* menos espacio debajo del párrafo */
