@@ -247,7 +247,7 @@ footer {
   background: #000;        /* fondo negro elegante */
   color: #fff;             /* flecha blanca */
   padding: 12px 16px;
-  border-radius: 50%;      /* forma circular */
+  border-radius: 100%;      /* forma circular */
   font-size: 18px;
   text-decoration: none;
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
