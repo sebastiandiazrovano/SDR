@@ -4,6 +4,11 @@
 html {
   scroll-behavior: smooth;
 }
+section[id],
+h2[id],
+h3[id] {
+  scroll-margin-top: 90px; /* un poco más alto que el nav para dejar aire */
+}
 .intro-img {
   width: 100%;        /* ocupa todo el ancho disponible del contenedor */
   max-width: 1000px;  /* igual que el resto de las imágenes */
@@ -16,29 +21,48 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+/* ==== MENÚ FIJO SUPERIOR ==== */
 nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
+  height: 70px; /* ajusta según tu menú real */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* o space-around / space-between según tu diseño */
+  gap: 20px;
+  padding: 0 20px;
   z-index: 1000;
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* opcional */
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* Asegura que el resto del contenido no quede oculto bajo el menú */
+body {
+  padding-top: 70px; /* mismo valor que height del nav */
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #000;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
 header nav {
   width: 100%;
 }
 body {
   padding-top: 100px; /* ajusta según la altura del header */
 }
-body {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 16px;
-  line-height: 1.8;
-  color: #000;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* asegura que aparezca justo debajo del botón */
+  left: 0;
   background-color: #fff;
-   letter-spacing: 1px; 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1100; /* más alto que el nav */
 }
 .epigrafe {
     display: block;        /* fuerza a que esté en su propia línea */
