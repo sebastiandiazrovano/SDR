@@ -16,15 +16,22 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-nav {
+header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* asegura que quede encima del resto */
-  background-color: white; /* o el color de fondo de tu menú */
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra opcional */
 }
 
+header nav {
+  width: 100%;
+}
+body {
+  padding-top: 100px; /* ajusta según la altura del header */
+}
 body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
