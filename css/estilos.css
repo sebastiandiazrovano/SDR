@@ -16,6 +16,14 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* asegura que quede encima del resto */
+  background-color: white; /* o el color de fondo de tu menú */
+}
 
 body {
   font-family: 'Cormorant Garamond', serif;
